@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"os"
 	"strconv"
@@ -44,5 +45,6 @@ func main() {
 	arr()
 	// fmt.Println(c)
 	writeFile()
+	fmt.Println("hello")
 
 }
